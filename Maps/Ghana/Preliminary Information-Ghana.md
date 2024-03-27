@@ -10,6 +10,7 @@
 [6]: https://www.fao.org/giews/countrybrief/country.jsp?code=GHA&lang=ar
 
 Administrative Zones
+<img src="https://www.ghanamissionun.org/wp-content/uploads/2023/11/Ghana_Regional_Map.jpg" />
 
 ### Geography
 **Area** <sup>[1]</sup>
