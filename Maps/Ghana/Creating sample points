@@ -1,0 +1,50 @@
+//import country boundary
+var data = ee.FeatureCollection("FAO/GAUL/2015/level0")
+
+//Filter the country boundary to study area
+var ghana = data.filter(ee.Filter.eq('ADM0_NAME', 'Ghana'))
+
+//import dataset
+var dataset = ee.ImageCollection("users/potapovpeter/Global_cropland_2019")
+            .mosaic().clip(ghana)
+
+//convert to a cropland mask
+var datasetcrop = ee.ImageCollection("users/potapovpeter/Global_cropland_2019")
+            .mosaic().clip(ghana).eq(1)
+
+var vis = {palette:["Yellow","green"]}
+
+Map.centerObject(ghana,7)
+
+Map.addLayer(datasetcrop, vis, "Cropland")
+
+//Step2 Create stratifiedsample points
+var points = datasetcrop.stratifiedSample({
+  region:ghana.geometry(),
+  scale:10,
+  numPoints:463,
+  classValues:[0,1],
+  classPoints: [278,185],
+  geometries:true
+})
+
+Map.addLayer(points,{color: "red"},"sample points")
+
+//4.Create FeatureCollection with cols:LAT, LON, PLOTID
+var pointsCSV = points.map(function(point){
+  var geometry = point.geometry()
+  return ee.Feature(geometry,{
+    LON:geometry.coordinates().get(0),
+    LAT:geometry.coordinates().get(1),
+    PLOTID:point.get("system:index"),
+    //WorldCereal: point.get("crop")
+  })
+})
+
+//5.Saving CSV to Google Drive
+Export.table.toDrive({
+  collection:pointsCSV,
+  description:'GHstratifiedsample',
+  fileFormat:'CSV',
+  selectors: ['LAT', 'LON', 'PLOTID','GLAD']
+})
