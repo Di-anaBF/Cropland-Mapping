@@ -9,7 +9,7 @@
 [5]: https://ipad.fas.usda.gov/countrysummary/default.aspx?id=GH
 [6]: https://www.fao.org/giews/countrybrief/country.jsp?code=GHA&lang=ar
 
-Administrative Zones
+### Admin Zones
 <img src="https://www.ghanamissionun.org/wp-content/uploads/2023/11/Ghana_Regional_Map.jpg" />
 
 ### Geography
