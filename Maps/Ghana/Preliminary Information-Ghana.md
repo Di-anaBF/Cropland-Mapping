@@ -29,7 +29,7 @@ About 34,605,166 people
 - forest: 21.2% (2018 est.)
 - other: 9.7% (2018 est.)
 
-Terrestrial Landscape:
+### Terrestrial Landscape:
 - Sudan Savannah Zone, 
 - Guinea Savannah Zone, 
 - Transition Zone, Semi-deciduous Forest zone, 
@@ -41,7 +41,7 @@ Terrestrial Landscape:
 - wet season that reaches its peak in August and September. 
 
 **Soils** <sup>[4]</sup>
-The coastal savanna zone has an abundance of soil types, including tropical black earths, tropical gray earths, acid vleisols, and sodium vleisols.
+- The coastal savanna zone has an abundance of soil types, including tropical black earths, tropical gray earths, acid vleisols, and sodium vleisols.
 
 
 ### Crop Calendars
