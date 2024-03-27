@@ -21,28 +21,26 @@ Administrative Zones
 About 34,605,166 people
 
 **Landscape** <sup>[3]</sup>
-agricultural land: 69.1% (2018 est.)
-arable land: 20.7% (2018 est.)
-permanent crops: 11.9% (2018 est.)
-permanent pasture: 36.5% (2018 est.)
-forest: 21.2% (2018 est.)
-other: 9.7% (2018 est.)
+- agricultural land: 69.1% (2018 est.)
+- arable land: 20.7% (2018 est.)
+- permanent crops: 11.9% (2018 est.)
+- permanent pasture: 36.5% (2018 est.)
+- forest: 21.2% (2018 est.)
+- other: 9.7% (2018 est.)
 
 Terrestrial Landscape:
-Sudan Savannah Zone, 
-Guinea Savannah Zone, 
-Transition Zone, Semi-deciduous Forest zone, 
-Rain Forest Zone and the 
-Coastal Savannah Zone 
+- Sudan Savannah Zone, 
+- Guinea Savannah Zone, 
+- Transition Zone, Semi-deciduous Forest zone, 
+- Rain Forest Zone and the 
+- Coastal Savannah Zone 
 
 **Climate** <sup>[4]</sup>
-a dry season from November to March, with hot days and cool nights under clear skies.
- wet season that reaches its peak in August and September. 
+- dry season from November to March, with hot days and cool nights under clear skies.
+- wet season that reaches its peak in August and September. 
 
 **Soils** <sup>[4]</sup>
 The coastal savanna zone has an abundance of soil types, including tropical black earths, tropical gray earths, acid vleisols, and sodium vleisols.
-
-
 
 
 ### Crop Calendars
