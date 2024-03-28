@@ -1,4 +1,5 @@
 # Cropland-Mapping
+Trying to produce a cropland map for Ghana following the understanding gained from my recent completion of the crop mapping course by Ivan Zvonkov
 
 ## Country: Ghana
 ## Start year: 2024
